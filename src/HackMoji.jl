@@ -1,5 +1,7 @@
 module HackMoji
 
-# Write your package code here.
+export runme
+
+include("interpreter.jl")
 
 end
