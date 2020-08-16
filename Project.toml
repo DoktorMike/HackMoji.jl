@@ -1,0 +1,13 @@
+name = "HackMoji"
+uuid = "43a57738-dd81-4760-a02d-242c68912922"
+authors = ["Michael Green <micke.green@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
