@@ -1,4 +1,13 @@
-function runme(code=",.", tapelen=10000)
+"""
+    runme(code::String = ",.", tapelen = 10000, a)
+
+The interpreter of the HackMoji language.
+
+# Arguments:
+- `code`: Your HackMoji code given as a string
+- `tapelen`: Your HackMoji memory given as number of bytes
+"""
+function runme(code::String=",.", tapelen=10000)
     data = fill(UInt8(0), tapelen)
     index = 1
     ptr = 1
@@ -30,7 +39,12 @@ function runme(code=",.", tapelen=10000)
     end
 end
 
-function mapjumps(code=",.[,.,.+++[,..],--]..,")
+"""
+    mapjumps(code=",.[,.,.+++[,..],--]..,")
+
+Register the beginning and end of all loops in the HackMoji Code.
+"""
+function mapjumps(code::String=",.[,.,.+++[,..],--]..,")
     jumps = Dict{Int, Int}()
     stack = []
     for i in 1:length(code)

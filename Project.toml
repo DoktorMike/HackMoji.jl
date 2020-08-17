@@ -3,6 +3,9 @@ uuid = "43a57738-dd81-4760-a02d-242c68912922"
 authors = ["Michael Green <micke.green@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
+
 [compat]
 julia = "1"
 
