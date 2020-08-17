@@ -21,6 +21,24 @@ This is the classic "Hello World!" example from so many programming languages.
 runme("++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.")
 ```
 
+### Add two input numbers together
+
+```julia
+addtwo = """
+,                                                     Input first number
+------------------------------------------------      Make the number character into a real number
+>                                                     Move to cell 1
+,                                                     Input second number
+------------------------------------------------      Remove 48 from character
+<                                                     Move to cell 0
+[>+<-]                                                Loop where we decrease the number in cell 0 and increase in cell 1
+>                                                     Move to cell 1
+++++++++++++++++++++++++++++++++++++++++++++++++      Convert the number to a character number
+.                                                     Print the result
+"""
+runme(addtwo)
+```
+
 ### Add 5 + 2
 
 This example produces 7 by adding 5 + 2.
