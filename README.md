@@ -7,6 +7,8 @@
 The purpose behind Hack-Moji is to use a fun a stimulating way of learning
 computer programming for my children Hamiltonian and Valerian.
 
+I will add fun and useful examples here as I go.
+
 ## Examples
 
 These examples are taken from the [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck#Examples) wikipedia article.
