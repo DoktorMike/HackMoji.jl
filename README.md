@@ -1,6 +1,6 @@
 # HackMoji 
 
-[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://DoktorMike.github.io/HackMoji.jl/stable) [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://DoktorMike.github.io/HackMoji.jl/dev) [![Build Status](https://github.com/DoktorMike/HackMoji.jl/workflows/CI/badge.svg)](https://github.com/DoktorMike/HackMoji.jl/actions) [![Build Status](https://travis-ci.com/DoktorMike/HackMoji.jl.svg?branch=master)](https://travis-ci.com/DoktorMike/HackMoji.jl)
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://DoktorMike.github.io/HackMoji.jl/stable) [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://DoktorMike.github.io/HackMoji.jl/dev) [![Build Status](https://github.com/DoktorMike/HackMoji.jl/workflows/CI/badge.svg)](https://github.com/DoktorMike/HackMoji.jl/actions) [![Build Status](https://travis-ci.org/DoktorMike/HackMoji.jl.svg?branch=master)](https://travis-ci.org/DoktorMike/HackMoji.jl)
 
 ## Introduction
 
